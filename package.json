@@ -1,0 +1,25 @@
+{
+  "name": "treinamento-node-part1",
+  "version": "0.0.1",
+  "description": "Projeto exemplo para treninamento NodeJS Accenture",
+  "main": "app.js",
+  "scripts": {
+    "production": "pm2 start production.json  --env production",
+    "development": "pm2 start development.json  --env development"
+  },
+  "keywords": [
+    "NodeJS"
+  ],
+  "author": "Elias Júnior",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "1.18.2",
+    "consign": "0.1.6",
+    "express": "4.16.3",
+    "express-validator": "5.2.0",
+    "jsonwebtoken": "8.2.1",
+    "mongoose": "5.1.1",
+    "nodemon": "1.17.4"
+  }
+}
